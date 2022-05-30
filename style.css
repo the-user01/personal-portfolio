@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   /* background-image: url("image/bgimage.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+   background-color: #553e3e36;
+}
+
+/*
+h3 , h2{
+    color: black;
+}
+*/
+
+
+.logo{
+flex: 1;
+padding-left: 10px;
+font-size: 25px;
+font-style: italic;
+}
+
+nav{ 
+flex: 2;
+}
+
+.nav-links{
+display: flex;
+list-style: none;
+justify-content: space-around;
+}
+
+.nav-link{
+text-decoration: none;
+color: black;
+}
+
+/*.nav-link:hover{
+font-size: 23px;
+color: white;
+background-color: rgb(66, 66, 66);
+
+}
+*/
+
+.first-sec{
+width: 100%;
+height: 250px;
+margin-top: 10px;
+/* background-image: url("image/bgimage.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; */
+text-align: center;     
+}
+
+.first-sec h4{
+font-size: 30px;        
+}
+
+.second-sec h2{
+text-align: center;
+font-size: 26px;
+}
+
+.image img{
+height: 250px;
+width: 300px;
+
+}
+
+button{
+border: none;
+border-radius: 10px;
+/*background-image: linear-gradient(90deg, crimson, red); */
+cursor: pointer;
+}
+
+.third-sec{
+margin-top: 10px;
+width: 100%;
+}
+
+h3{
+font-size: 30px;
+text-align: center;
+} 
+
+.fourth-sec{
+height: 400px;
+display: flex;
+margin-top: -5px;
+padding-top: 30px;
+padding-bottom: 30px;
+
+/* background-color:#F4F4F4 ; */
+
+
+}
+.fourth-sec h4{
+font-size: 24px;
+text-align: center;
+}
+.fourth-sec p{
+font-size: 22px;
+
+}
+.fourth-sec li{
+font-size: 22px;
+}
+
+.fourth-sec .hobbies{
+padding: 20px;
+background-color: grey;
+border-radius: 8px;
+box-shadow: 5px 2px 35px rgb(143, 167, 143);
+background-image: linear-gradient(90deg, grey, rgb(70, 65, 65));
+height: 300px;
+}
+
+.fourth-sec .activities{
+    padding: 20px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 5px 2px 35px rgb(143, 167, 143);
+    background-image: linear-gradient(90deg, grey, rgb(70, 65, 65));
+    height: 300px;
+    }
+
+.fourth-sec .hobbies:hover{
+padding: 20px;
+background-color: grey;
+border-radius: 8px;
+box-shadow: 10px 15px 5px grey;
+background-image: linear-gradient(90deg, grey, rgb(70, 65, 65));
+color: white;
+height: 300px;
+}
+
+.fourth-sec .activities:hover{
+    padding: 20px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 10px 15px 5px grey;
+    background-image: linear-gradient(90deg, grey, rgb(70, 65, 65));
+    color: white;
+    height: 300px;
+    }
+
+marquee{
+text-align: center;
+height: 50px;
+font-size: 20px;
+padding-top: 20px;
+}
+
+
+#another-text{
+    display: none;
+}

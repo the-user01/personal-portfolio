@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <header class="container-fluid">
+        <div class="logo">
+            <h5>Tawfique Hasan</h5>
+        </div> <!--logo-->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header> <!-- header ends here -->
+
+    <main class="container-fluid">
+        <section class="first-sec  mt-4">
+            <h4>Welcome to my page</h4>
+            <h4>I'm</h4>
+            <h2>A.S.M Tawfiqul Hasan</h2>
+            <p>Student of Daffodil International University.</p>
+        </section> <!-- First section ends here -->
+
+        <section id="about" class="second-sec mb-5">
+            <h2><u>About Me</u></h2>
+
+                <div class="container-fluid row">
+
+                    <div class="card col-sm-12 col-md-6 col-lg-2 mt-4" style="width: 300px;">
+                            <img src="image/Capture.PNG" class="image card-img-top img-fluid">
+
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Tawfique Hasan</h5>
+                                </div>
+                            </div>
+                    </div>
+                    
+                <div class="col-sm-1  col-lg-1">
+
+                </div>
+
+                    <div class="col-sm-12 cold-md-6 col-lg-7">
+                         <p class=" pt-3">
+                            I was born in Dhaka. I have passed SSC from AK High School & College and HSC from Dhaka City College. Currently I'm studying BSc Honours in Daffodil International University. In my family, we are 5 members including me. I am a person who is positive about every aspect of life. There are many things I like to do, to see and to experience. I like to read, I like to write; I like to think, I like to dream; I like to listen. I am a very simple person.<span id="another-text"> I don't have any fixed hobbys in my life. It completely depends on time. And also I didn't set up my future goal. There is a 50/50 chance to wheather I stay in my own country or go for abroad. From my childhood I always dreamt to be an RAB officer. But when I started to grow up I was changing that direction from RAB to be an Army officer. That dream of mine holded since I passed HSC. I also dreamt to be a Hacker (<strong>Obviously an Ethical Hacker</strong> ) besides becoming an Army officer. </span>
+                         </p>
+                         
+                         <button id="text-btn" class="btn btn-outline-danger">Read more</button>
+                    </div> <!-- Text div ends here -->
+                </div> <!-- Container div ends here -->
+
+        </section> <!-- Second section ends here -->
+
+        <section class="third-sec">
+            <h3><u>Extra activities</u></h3>
+            </section> <!-- Third section ends here -->
+
+            <section class="container-fluid fourth-sec row">
+
+           <div class="hobbies col-sm-12 col-lg-5">
+            <h4>Hobbies</h4>
+            <p>Some hobbies of mine:</p>
+            <ul type="square">
+                <li>Listening Music</li>
+                <li>Watching Movies</li>
+                <li>Reading Books</li>
+            </ul>
+           </div> <!-- Hobbies div ends here -->
+
+           <div class="col-sm-12 col-lg-2 my-4">
+
+           </div>
+
+           <div class="activities col-sm-12 col-lg-5 ">
+            <h4>Activities</h4>
+            <p>I'm a learner. So I'm learning: </p>
+            <ul type="square">
+                <li>Web Development</li>
+                <li>Video Editing</li>
+                <li>Photography</li>
+                <li>Programming</li>
+            </ul>
+           </div> <!-- Activities div ends here -->
+            
+        </section> <!-- Fourth section ends here -->
+    </main> <!-- main ends here -->
+
+
+    <script>
+
+        document.getElementById('text-btn').addEventListener('click', () => {
+            document.getElementById('another-text').style.display = 'block';
+            document.getElementById('text-btn').style.display = 'none';
+        });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
